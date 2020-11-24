@@ -1,0 +1,260 @@
+#root {
+	height: 100vh;
+	width : 100%;
+	vertical-align: center;
+	z-index: 100;
+	background-color: #14bdac;
+}
+
+.flexcontainer {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row; /* works with row or column */
+   flex-direction: row;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+	height: 100vh;
+}
+
+.score {
+  color: white;
+  padding: 2px;
+  border-radius: 10%;
+  transition: all 1s ease;
+}
+
+.leftScore {
+  color: white;
+  padding: 2px;
+  border-radius: 10%;
+  transition: all 1s ease;
+  background-color:#138496;
+}
+
+.rightScore {
+  color: white;
+  padding: 2px;
+  border-radius: 10%;
+  transition: all 1s ease;
+  margin-left:auto;
+  background-color:
+  #dc3545;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+
+
+.board-row {
+  display: flex;
+  flex: none;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: rgba(255,255,255,0);
+  border: 0px solid #15A091;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 60px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 60px;
+}
+
+.squareTopCenter
+{
+  background: rgba(255,255,255,0);
+  border: 0px solid #15A091;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 60px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 60px;
+  border-bottom-width: 3px;
+  border-right-width: 3px;
+  border-left-width: 3px;
+}
+
+.squareTopLeft
+{
+  background: rgba(255,255,255,0);
+  border: 0px solid #15A091;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 60px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 60px;
+  border-bottom-width: 3px;
+  border-right-width: 3px;
+}
+
+.squareTopRight
+{
+  background: rgba(255,255,255,0);
+  border: 0px solid #15A091;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 60px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 60px;
+  border-bottom-width: 3px;
+  border-left-width: 3px;
+}
+
+.squareCenterLeft
+{
+  background: rgba(255,255,255,0);
+  border: 0px solid #15A091;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 60px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 60px;
+  border-bottom-width: 3px;
+  border-right-width: 3px;
+  border-top-width: 3px;
+}
+
+.squareCenterCenter
+{
+  background: rgba(255,255,255,0);
+  border: 0px solid #15A091;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 60px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 60px;
+  border-width: 3px;
+}
+
+.squareCenterRight
+{
+  background: rgba(255,255,255,0);
+  border: 0px solid #15A091;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 60px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 60px;
+  border-bottom-width: 3px;
+  border-top-width: 3px;
+  border-left-width: 3px;
+}
+
+.squareBottomLeft
+{
+  background: rgba(255,255,255,0);
+  border: 0px solid #15A091;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 60px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 60px;
+  border-right-width: 3px;
+  border-top-width: 3px;
+}
+
+.squareBottomCenter
+{
+  background: rgba(255,255,255,0);
+  border: 0px solid #15A091;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 60px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 60px;
+  border-right-width: 3px;
+  border-top-width: 3px;
+  border-left-width: 3px;
+}
+
+.squareBottomRight
+{
+  background: rgba(255,255,255,0);
+  border: 0px solid #15A091;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 60px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 60px;
+  border-top-width: 3px;
+  border-left-width: 3px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.deleteBtn {
+  margin-top: 10px; 
+}
